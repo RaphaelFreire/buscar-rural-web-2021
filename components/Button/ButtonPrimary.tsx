@@ -1,13 +1,19 @@
-import { Button, ButtonProps } from '@chakra-ui/react'
-import { ReactNode } from 'react'
+import { ReactNode, ButtonHTMLAttributes } from 'react'
+import style from './style.module.scss'
 
-interface ButtonPrimaryProps extends ButtonProps {
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: 'primary' | 'secondary' | 'outline'
   children: ReactNode
 }
 
-export const ButtonPrimary = function ButtonPrimary({
+export function Button({
   children,
+  variant,
   ...rest
-}: ButtonPrimaryProps): JSX.Element {
-  return <Button {...rest}>{children}</Button>
+}: ButtonProps): JSX.Element {
+  return (
+    <button {...rest} className={`${style.button} ${style[variant]}`}>
+      {children}
+    </button>
+  )
 }

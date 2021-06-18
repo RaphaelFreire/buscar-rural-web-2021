@@ -1,0 +1,64 @@
+@import "../../styles/variables.scss";
+
+.button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 100%;
+
+  text-transform: uppercase;
+
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 4px;
+
+  color: $gray;
+  background-color: $white;
+
+  border: 2px solid transparent;
+
+  &:hover{
+    color: $black;
+    background-color: $gray_light;
+  }
+
+}
+
+.primary {
+  color: $white;
+  background-color: $green;
+  transition: background-color 0.3s ease-in;
+
+  &:hover{
+    color: $white;
+    background-color: $green_light;
+  }
+}
+
+.secondary {
+  color: $white;
+  background-color: $orange;
+  transition: background-color 0.3s ease-in;
+
+  &:hover{
+    color: $white;
+    background-color: $orange_light;
+  }
+}
+
+
+.outline {
+  color: $gray;
+  border-color: $gray;
+  transition: border-color 0.3s ease-in;
+
+  &:hover{
+    color: $gray_dark;
+    background-color: transparent;
+    border-color: $gray_dark;
+  }
+}
+
+
+
