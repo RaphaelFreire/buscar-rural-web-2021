@@ -10,17 +10,16 @@
   text-transform: uppercase;
 
   padding: 1rem 2rem;
-  color: #fff;
   border-radius: 4px;
 
-  color: $gray;
-  background-color: $white;
+  color: $green;
+  background-color: transparent;
 
   border: 2px solid transparent;
+  box-sizing: border-box;
 
   &:hover{
-    color: $black;
-    background-color: $gray_light;
+    background-color: $brown_light;
   }
 
 }
@@ -52,6 +51,8 @@
   color: $gray;
   border-color: $gray;
   transition: border-color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+
 
   &:hover{
     color: $gray_dark;

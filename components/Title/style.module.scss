@@ -1,0 +1,52 @@
+@import "../../styles/variables.scss";
+
+.title {
+  font-family: Sora;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.heading-1 {
+  font-size: 56px;
+  line-height: 62px;
+}
+
+.heading-2 {
+  font-size: 48px;
+  line-height: 53px;
+}
+
+.heading-3 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.heading-4 {
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.heading-5 {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.heading-6 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.left{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+
+
