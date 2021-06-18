@@ -12,7 +12,7 @@
   padding: 1rem 2rem;
   border-radius: 4px;
 
-  color: $green;
+  color: $primary;
   background-color: transparent;
 
   border: 2px solid transparent;
@@ -26,23 +26,23 @@
 
 .primary {
   color: $white;
-  background-color: $green;
+  background-color: $primary;
   transition: background-color 0.3s ease-in;
 
   &:hover{
     color: $white;
-    background-color: $green_light;
+    background-color: $primary_light;
   }
 }
 
 .secondary {
   color: $white;
-  background-color: $orange;
+  background-color: $secondary;
   transition: background-color 0.3s ease-in;
 
   &:hover{
     color: $white;
-    background-color: $orange_light;
+    background-color: $secondary_dark;
   }
 }
 

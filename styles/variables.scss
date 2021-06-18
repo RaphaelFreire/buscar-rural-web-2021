@@ -2,17 +2,63 @@
 //**** Components ****//
 //*******************//
 
-$green:                      #0A522F !default;
-$green_light:                #276F4C !default;
-$white:                      #FFFFFF !default;
-$brown:                      #5D360C !default;
-$brown_light:                #F4F0EC !default;
-$green_accent:               #018A06 !default;
+$gradient-1:                    linear-gradient(180deg, #007819 0%, #0A522F 100%) !default;
+$gradient-2:                    linear-gradient(225deg, #FB8D13 0%, #D3750D 100%) !default;
+
+//**** Colors ****//
+
+$primary:                      #0A522F !default;
+$primary_dark:                 #134127 !default;
+$primary_light:                #067941 !default;
+$secondary:                    #FB8D13 !default;
+$secondary_dark:               #D3750D !default;
+$secondary_light:              #FFAD29 !default;
+$brown:                        #5D360C !default;
+$brown_dark:                   #4D311F !default;
+$brown_light:                  #D3750D !default;
+
+
+//**** State ****//
+
+$info:                        #2F80ED !default;
+$succes:                      #27AE60 !default;
+$warning:                     #E2B93B !default;
+$error:                       #EB5757 !default;
+
+
+//**** Text ****//
+
 $black:                      #333333 !default;
-$gray:                       #A3A3A3 !default;
-$gray_light:                 #F6F6F6 !default;
-$gray_dark:                  #4D5662 !default;
-$yellow:                     #FFE37E !default;
-$orange:                     #FB8D13 !default;
-$orange_light:               #FFAE00 !default;
+$white:                      #FFFFFF !default;
+
+
+//**** Neutral ****//
+
+$gray_darkness:                #3C4342 !default;
+$gray-dark:                    #868E96 !default;
+$gray:                         #C6CED6 !default;
+$gray-light:                   #EAE6E2 !default;
+$gray-lightness:               #F6F6F6 !default;
+
+
+//**** Shadown ****//
+
+$shadow-1: 0px 4px 24px rgba(9, 44, 76, 0.4);
+$shadow-2: 0px 5px 15px rgba(70, 61, 55, 0.1);
+
+
+//**** Spacings ****//
+
+$spacing-1:                  8px  !default;
+$spacing-2:                  16px !default;
+$spacing-3:                  24px !default;
+$spacing-4:                  32px !default;
+$spacing-5:                  40px !default;
+$spacing-6:                  56px !default;
+$spacing-7:                  72px !default;
+$spacing-8:                  80px !default;
+$spacing-9:                  96px !default;
+$spacing-10:                 120px !default;
+
+
 

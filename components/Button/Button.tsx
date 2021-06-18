@@ -8,7 +8,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export function Button({
   children,
-  variant,
+  variant = 'primary',
   ...rest
 }: ButtonProps): JSX.Element {
   return (
