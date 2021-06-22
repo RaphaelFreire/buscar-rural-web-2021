@@ -24,11 +24,33 @@ export default function Home(): JSX.Element {
         tenetur numquam obcaecati deleniti rem, voluptatum, eveniet odit,
         reiciendis necessitatibus excepturi?
       </Text>
+      <Button variant="primary" size="small">
+        Primary Small
+      </Button>
+      <Button variant="primary" size="normal">
+        Primary Normal
+      </Button>
 
-      <Button>Primary</Button>
-      <Button variant="primary">Primary</Button>
-      <Button variant="secondary">Secondary</Button>
-      <Button variant="outline">Secondary</Button>
+      <Button variant="secondary" size="small">
+        Secondary Small
+      </Button>
+      <Button variant="secondary" size="normal">
+        Secondary Normal
+      </Button>
+
+      <Button variant="outline" size="small">
+        Secondary Small
+      </Button>
+      <Button variant="outline" size="normal">
+        Secondary Normal
+      </Button>
+
+      <Button variant="ghost" size="small">
+        Secondary Small
+      </Button>
+      <Button variant="ghost" size="normal">
+        Secondary Normal
+      </Button>
 
       <Input />
     </>
